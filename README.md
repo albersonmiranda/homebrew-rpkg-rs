@@ -2,15 +2,15 @@
 
 ## How do I install these formulae?
 
-`brew install albersonmiranda/rpkg-rs/<formula>`
+`brew install albersonmiranda/rpkg-rs/rpkg`
 
-Or `brew tap albersonmiranda/rpkg-rs` and then `brew install <formula>`.
+Or `brew tap albersonmiranda/rpkg-rs` and then `brew install rpkg`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "albersonmiranda/rpkg-rs"
-brew "<formula>"
+brew "rpkg"
 ```
 
 ## Documentation
