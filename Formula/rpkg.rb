@@ -5,16 +5,16 @@ class Rpkg < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/albersonmiranda/rip/releases/download/v0.3.2/rpkg-aarch64-apple-darwin.tar.xz"
-      sha256 "ba7272f7231cc787da290f724d8444737197e3f975489b3333712a8a46965103"
+      sha256 "b446450df28752e439f391eba05e4f48aacfd34b76353fe347aa126777069ad1"
     end
     if Hardware::CPU.intel?
       url "https://github.com/albersonmiranda/rip/releases/download/v0.3.2/rpkg-x86_64-apple-darwin.tar.xz"
-      sha256 "73f90ddf5d9c04e720503f21dd2481313c0aeb72bd6dcf0e92399e0826152cc6"
+      sha256 "0b42a228d16da74215228b6504e837e8db63afbbc9bc4fd587763f00db6bd19f"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/albersonmiranda/rip/releases/download/v0.3.2/rpkg-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "5e4e4423e267877c7c793f073bdd9466b251c9100649a4b743085dab03f2708d"
+    sha256 "8861c0cd47d5e144779dac312a567b4c4a9522f147bddb6010625dcd56826c8b"
   end
   license "MIT"
 
